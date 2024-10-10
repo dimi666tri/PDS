@@ -67,6 +67,7 @@ public class Gasolina extends JFrame {
 			public void actionPerformed(ActionEvent e) {
 				double dinheiro = Double.parseDouble(textDinheiro.getText());
 				double custo =  Double.parseDouble(textCusto.getText());
+				lblResposta.setText("isso rende: " + dinheiro/custo + "L de gasolina");
 				
 			}
 		});
